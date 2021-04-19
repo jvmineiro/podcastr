@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <img alt="Podcastr" title="Podcastr" src=".github/podcastr.svg" />
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Como Roda</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-First, run the development server:
+<p align="center">
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">   
+
+  <img src="https://img.shields.io/github/stars/guilhermecapitao/nlw05-reactjs?label=stars&message=MIT&color=5965E0&labelColor=121214" alt="Stars">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="Moveit" src=".github/icon.svg" width="120px">
+</p>
+
+## 🧪 Tecnologias
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## 🚀 Como Rodar
+
+Clone o projeto e acesse a pasta
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/jvmineiro/podcastr.git && cd podcastr
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Siga os passos abaixo
+```bash
+# Instalar as dependencias
+$ yarn
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Rodar o projeto
+$ yarn dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 💻 Projeto
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[Podcastr](https://podcastr-nlw.vercel.app/) para trazer a melhor tecnologia para podcasts hoje em dia ! 💜 
 
-## Learn More
+Este projeto está sendo desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, apresentado pela **[@Rocketseat](https://github.com/Rocketseat)** durante Abril 19-25, 2021.
 
-To learn more about Next.js, take a look at the following resources:
+## 🔖 Layout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Você pode ver o layout do projeto atraves do Figma, segue abaixo o link,
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Layout Web](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr?node-id=160%3A2761) 
 
-## Deploy on Vercel
+Lembre-se que deve ter uma conta no [Figma](http://figma.com/) para poder acessa-lo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto contem a licença do MIT. Olhe o arquivo, [LICENSE](LICENSE.md), para mais detalhes.
+
+
+---
+
+<p align="center">Feito com 💜 por João Vitor Mineiro</p>
