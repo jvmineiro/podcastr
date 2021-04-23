@@ -1,6 +1,7 @@
 import {format ,parseISO} from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
-import { GetStaticPaths, GetStaticProps } from 'next'
+import { GetStaticPaths, GetStaticProps } from 'next';
+import { useRouter } from 'next/router'
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -55,7 +56,7 @@ export default function Episode({ episode }: EpisodeProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    return{
+    return {
         paths: [],
         fallback: 'blocking'
     }
