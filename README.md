@@ -43,6 +43,9 @@ Siga os passos abaixo
 # Instalar as dependencias
 $ yarn
 
+# Rodar o server
+$ yarn server
+
 # Rodar o projeto
 $ yarn dev
 ```
