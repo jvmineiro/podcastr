@@ -115,7 +115,7 @@ export const getStaticProps: GetStaticProps = async () => {
     params: {
       _limit:  12,
       _sort: 'published_at',
-      _order: 'dec'
+      _order: 'desc'
     }
   })
 
